@@ -1,16 +1,17 @@
-body{
-  background-color: #12151b;
-  padding: 0px 250px 20px 250px ;
 
+
+body {
+  background-color: #12151b;
+  padding: 0px 250px 20px 250px;
 }
 
-.navbar{
+.navbar {
   background-color: #215E61;
   padding: 20px;
   text-align: center;
 }
 
-a{
+a {
   text-decoration: none;
   color: #ffff;
   margin: 40px;
@@ -18,7 +19,7 @@ a{
   font-size: x-large;
 }
 
-.main{
+.main {
   width: 100%;
   height: 350px;
   background-color: #D2DCB6;
@@ -27,86 +28,69 @@ a{
   align-items: center;
 }
 
-h1 ,h3{
+h1, h3 {
   font-family: Arial, Helvetica, sans-serif;
-  
-
 }
 
-h1{
+h1 {
   padding-top: 30px;
   font-size: 50px;
   color: #1E3B2F;
-  text-shadow:  white  3px 3px 5px;
-  
+  text-shadow: white 3px 3px 5px;
 }
 
-h3{
+h3 {
   margin-top: 0px;
-  color:#010952;
+  color: #010952;
   font-size: 35px;
-
 }
 
-.tableDiv{
+.tableDiv {
   width: 100%;
   height: 280px;
   background-color: #F1F1F3;
-
 }
 
-.table{
-  margin:  0 auto;
+.table {
+  margin: 0 auto;
   width: 80%;
   background-color: #F1F1F3;
   border-collapse: collapse;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-
-
-.aboutPng{
+.aboutPng {
   width: 25px;
   height: 25px;
-  padding: 25px 0px  0px 53px; 
-  /* box-shadow: #0000 10px 10px 10px 10px; */
-  
-  
- 
+  padding: 25px 0px 0px 53px;
 }
 
-.phone{
-   width: 25px;
-  height: 25px;
-  padding: 25px 0px  0px 53px;
- 
-  
-}
-
-.send{
-   width: 25px;
+.phone {
+  width: 25px;
   height: 25px;
   padding: 25px 0px 0px 53px;
-  
 }
 
-.para{
+.send {
+  width: 25px;
+  height: 25px;
+  padding: 25px 0px 0px 53px;
+}
+
+.para {
   padding: 10px 55px 30px 55px;
   font-size: x-small;
   text-align: justify;
-   hyphens: auto;
+  hyphens: auto;
 }
 
-.word{
+.word {
   padding: 23px 0px 0px 25px;
   font-weight: 900;
   position: absolute;
-  /* border: 3px solid black; */
-  
-  
 }
 
-.endBody{
+.endBody {
   width: 100%;
   height: 50px;
   background-color: #D2DCB6;
@@ -114,37 +98,33 @@ h3{
   padding-top: 25px;
 }
 
-
-
-.aboutText{
+.aboutText {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 900;
   color: #000;
   margin: 0px 15px 0px 15px;
   padding-top: 0px;
-  
-  
 }
 
-.dot{
-font-size: 50px;
-padding-bottom: 12px;
-line-height: 0px;
+.dot {
+  font-size: 50px;
+  padding-bottom: 12px;
+  line-height: 0px;
+}
 
-}  
-.dot2{
+.dot2 {
   font-size: 70px;
   padding-top: 8px;
   line-height: 0px;
 }
 
-.dot3{
+.dot3 {
   font-size: 90px;
   line-height: 0px;
 }
 
-.peopleimg{
+.peopleimg {
   width: 80px;
   height: 80px;
   border: 2px solid #000;
@@ -153,15 +133,15 @@ line-height: 0px;
   margin: 0px 20px 0px 20px;
 }
 
-.table2{
-  margin:  0 auto;
+.table2 {
+  margin: 0 auto;
   width: 80%;
   text-align: center;
   border-collapse: collapse;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.people{
+.people {
   width: 100%;
   height: 200px;
   background-color: #D2DCB6;
@@ -169,7 +149,7 @@ line-height: 0px;
   padding-top: 25px;
 }
 
-.name{
+.name {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 900;
   color: #000;
@@ -177,52 +157,49 @@ line-height: 0px;
   padding-top: 10px;
 }
 
-.footer1{
+.footer1 {
   width: 100%;
   height: 8px;
   background-color: #F1F1F3;
-
 }
 
-.footer2{
+.footer2 {
   width: 100%;
   height: 8px;
   background-color: #7FBF13;
-
 }
 
-.footer3{
+.footer3 {
   width: 100%;
   height: 40px;
   background-color: #00341D;
-
 }
 
-.table3{
-  margin:  0 auto;
+.table3 {
+  margin: 0 auto;
   width: 80%;
   text-align: center;
   border-collapse: collapse;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.textset{
+.textset {
   font-family: Arial, Helvetica, sans-serif;
   color: #fff;
   border-right: 2px solid #fff;
   font-size: smaller;
   padding-top: 12px;
 }
-.textset2{
+
+.textset2 {
   font-family: Arial, Helvetica, sans-serif;
   color: #fff;
   font-size: smaller;
   padding-top: 12px;
 }
 
-
 /* =========================================
-   RESPONSIVE CSS (Add at the bottom)
+   COMPLETE RESPONSIVE CSS
    ========================================= */
 
 /* Laptops & Small Desktops (up to 1024px) */
@@ -237,13 +214,12 @@ line-height: 0px;
   }
 
   .table,
-  .table2,
-  .table3 {
+  .table2 {
     width: 90%;
   }
 
-  .para {
-    padding: 10px 30px 25px 30px;
+  .table3 {
+    width: 95%;
   }
 
   .aboutPng,
@@ -251,9 +227,19 @@ line-height: 0px;
   .send {
     padding: 20px 0px 0px 30px;
   }
+
+  .para {
+    padding: 10px 30px 25px 30px;
+  }
+
+  .textset,
+  .textset2 {
+    font-size: 12px;
+    padding: 12px 6px 0px 6px;
+  }
 }
 
-/* Tablets (up to 768px) */
+/* Tablets & Mobile (up to 768px) */
 @media (max-width: 768px) {
   body {
     padding: 0px 20px 20px 20px;
@@ -285,23 +271,50 @@ line-height: 0px;
     font-size: 24px;
   }
 
+  /* --- Aboutf Table (.tableDiv / .table) --- */
   .tableDiv {
     height: auto;
     padding: 20px 0;
   }
 
-  .table,
-  .table2,
-  .table3 {
+  .table {
+    display: flex;
+    flex-direction: column;
     width: 95%;
   }
 
- 
+  .table thead,
+  .table tbody,
+  .table tr {
+    display: contents;
+  }
+
   .table td {
     display: block;
     width: 100%;
     box-sizing: border-box;
+    text-align: left;
   }
+
+  /* THEAD Order (About Us, Mobile, Send Us) */
+  .table thead tr:nth-child(1) td:nth-child(1) { order: 1; }
+  .table thead tr:nth-child(2) td:nth-child(1) { order: 2; }
+
+  .table thead tr:nth-child(1) td:nth-child(2) { order: 3; }
+  .table thead tr:nth-child(2) td:nth-child(2) { order: 4; }
+
+  .table thead tr:nth-child(1) td:nth-child(3) { order: 5; }
+  .table thead tr:nth-child(2) td:nth-child(3) { order: 6; }
+
+  /* TBODY Order (People, Search, Service) */
+  .table tbody tr:nth-child(1) td:nth-child(1) { order: 7; }
+  .table tbody tr:nth-child(2) td:nth-child(1) { order: 8; }
+
+  .table tbody tr:nth-child(1) td:nth-child(2) { order: 9; }
+  .table tbody tr:nth-child(2) td:nth-child(2) { order: 10; }
+
+  .table tbody tr:nth-child(1) td:nth-child(3) { order: 11; }
+  .table tbody tr:nth-child(2) td:nth-child(3) { order: 12; }
 
   .aboutPng,
   .phone,
@@ -322,6 +335,7 @@ line-height: 0px;
     font-size: small;
   }
 
+  /* --- EndBody Divider --- */
   .endBody {
     height: auto;
     padding: 20px 10px;
@@ -340,26 +354,103 @@ line-height: 0px;
     font-size: 65px;
   }
 
+  /* --- People Table (.people / .table2) --- */
   .people {
     height: auto;
     padding: 25px 10px;
     box-sizing: border-box;
   }
 
-  .peopleimg {
-    width: 65px;
-    height: 65px;
-    margin: 0px 10px;
+  .table2 {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
   }
 
+  .table2 thead,
+  .table2 tr {
+    display: contents;
+  }
+
+  .table2 td {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+  /* Person 1 */
+  .table2 thead tr:nth-child(1) td:nth-child(1) { order: 1; }
+  .table2 thead tr:nth-child(2) td:nth-child(1) { order: 2; }
+  .table2 thead tr:nth-child(3) td:nth-child(1) { order: 3; margin-bottom: 25px; }
+
+  /* Person 2 */
+  .table2 thead tr:nth-child(1) td:nth-child(2) { order: 4; }
+  .table2 thead tr:nth-child(2) td:nth-child(2) { order: 5; }
+  .table2 thead tr:nth-child(3) td:nth-child(2) { order: 6; margin-bottom: 25px; }
+
+  /* Person 3 */
+  .table2 thead tr:nth-child(1) td:nth-child(3) { order: 7; }
+  .table2 thead tr:nth-child(2) td:nth-child(3) { order: 8; }
+  .table2 thead tr:nth-child(3) td:nth-child(3) { order: 9; }
+
+  .peopleimg {
+    width: 75px;
+    height: 75px;
+    margin: 0 auto;
+  }
+
+  .table2 .name {
+    margin: 10px 0 0 0;
+    padding-top: 8px;
+  }
+
+  .table2 .para {
+    padding: 8px 20px 15px 20px;
+    text-align: center;
+    font-size: small;
+  }
+
+  /* --- Footer (.footer3 / .table3) --- */
   .footer3 {
     height: auto;
-    padding: 10px 0;
+    padding: 15px 10px;
+    box-sizing: border-box;
+  }
+
+  .table3 {
+    width: 100%;
+    display: block;
+  }
+
+  .table3 tbody,
+  .table3 tr {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 8px 0px;
+    width: 100%;
+  }
+
+  .textset {
+    display: inline-block;
+    padding: 4px 12px;
+    border-right: 1px solid rgba(255, 255, 255, 0.5);
+    font-size: 13px;
+  }
+
+  .textset2 {
+    display: block;
+    width: 100%;
+    padding: 10px 0px 4px 0px;
+    margin-top: 6px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    font-size: 12px;
   }
 }
 
 /* Mobile Phones (up to 480px) */
-
 @media (max-width: 480px) {
   body {
     padding: 0px 10px 15px 10px;
@@ -378,34 +469,24 @@ line-height: 0px;
     font-size: 18px;
   }
 
-  /* Stack people cards vertically on phones */
-
-  .table2 td {
-    display: block;
-    width: 100%;
-    margin-bottom: 15px;
-  }
-
-  .peopleimg {
-    width: 75px;
-    height: 75px;
-    margin: 0 auto;
-  }
-
-  /* Stack footer items cleanly */
-  
-  .table3 td {
-    display: block;
-    width: 100%;
+  .table3 tr {
+    flex-direction: column;
+    gap: 0;
   }
 
   .textset {
+    display: block;
+    width: 100%;
     border-right: none;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
     padding: 8px 0;
+    font-size: 13px;
   }
 
   .textset2 {
-    padding: 8px 0;
+    border-top: none;
+    padding: 10px 0 4px 0;
+    margin-top: 0;
+    font-size: 12px;
   }
 }
