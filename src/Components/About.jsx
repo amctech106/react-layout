@@ -7,6 +7,7 @@ import Service from "../assets/service.png";
 
 function Aboutf() {
   return (
+    <div className="tableDiv">
     <table className="table">
       <thead>
         <tr>
@@ -70,6 +71,7 @@ function Aboutf() {
         </tr>
       </tbody>
     </table>
+    </div>
   );
 }
 

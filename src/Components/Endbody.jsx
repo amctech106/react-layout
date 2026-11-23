@@ -1,14 +1,6 @@
 function Endbody() {
   return (
-    <div className="endbody">
-      <div className="dot1"></div>
-      <div className="dot2"></div>
-      <div className="dot3"></div>
-      <div className="aboutUs">About Us</div>
-      <div className="dot4"></div>
-      <div className="dot5"></div>
-      <div className="dot6"></div>
-    </div>
+  <div className="endBody"><span className="dot">.</span><span className="dot2">.</span><span className="dot3">.</span> <span className="aboutText">About Us</span> <span className="dot3">.</span> <span className="dot2">.</span> <span className="dot">.</span></div>
   );
 }
 

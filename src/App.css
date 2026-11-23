@@ -5,7 +5,7 @@ body{
 }
 
 .navbar{
-  background-color: #1E3B2F;
+  background-color: #215E61;
   padding: 20px;
   text-align: center;
 }
@@ -13,14 +13,15 @@ body{
 a{
   text-decoration: none;
   color: #ffff;
-  margin: 20px;
-  font-weight: bolder;
+  margin: 40px;
+  font-weight: 900;
+  font-size: x-large;
 }
 
 .main{
   width: 100%;
   height: 350px;
-  background-color: #B3D972;
+  background-color: #D2DCB6;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -47,8 +48,16 @@ h3{
 
 }
 
-.table{
+.tableDiv{
   width: 100%;
+  height: 280px;
+  background-color: #F1F1F3;
+
+}
+
+.table{
+  margin:  0 auto;
+  width: 80%;
   background-color: #F1F1F3;
   border-collapse: collapse;
   font-family: Arial, Helvetica, sans-serif;
@@ -59,7 +68,7 @@ h3{
 .aboutPng{
   width: 25px;
   height: 25px;
-  padding: 10px 0px  0px 53px; 
+  padding: 25px 0px  0px 53px; 
   /* box-shadow: #0000 10px 10px 10px 10px; */
   
   
@@ -69,7 +78,7 @@ h3{
 .phone{
    width: 25px;
   height: 25px;
-  padding: 10px 0px  0px 53px;
+  padding: 25px 0px  0px 53px;
  
   
 }
@@ -77,19 +86,19 @@ h3{
 .send{
    width: 25px;
   height: 25px;
-  padding: 10px 0px 0px 53px;
+  padding: 25px 0px 0px 53px;
   
 }
 
 .para{
-  padding: 5px 55px 30px 55px;
+  padding: 10px 55px 30px 55px;
   font-size: x-small;
   text-align: justify;
    hyphens: auto;
 }
 
 .word{
-  padding: 12px 0px 0px 25px;
+  padding: 23px 0px 0px 25px;
   font-weight: 900;
   position: absolute;
   /* border: 3px solid black; */
@@ -97,42 +106,116 @@ h3{
   
 }
 
-.endbody{
+.endBody{
   width: 100%;
-  height: 200px;
-  background-color: #B3D972;
-
-
-}
-
-
-.dot1{
-  width: 10px;
-  height: 10px;
-  background-color: #0000;
-  border-radius: 50%;
+  height: 50px;
+  background-color: #D2DCB6;
   text-align: center;
-  
+  padding-top: 25px;
 }
-.aboutUs{
+
+
+
+.aboutText{
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
-  font-weight: 600;
-
+  font-weight: 900;
+  color: #000;
+  margin: 0px 15px 0px 15px;
+  padding-top: 0px;
+  
+  
 }
 
+.dot{
+font-size: 50px;
+padding-bottom: 12px;
+line-height: 0px;
 
+}  
 .dot2{
-  width: 10px;
-  height: 10px;
-  background-color: #000;
-  border-radius: 50%;
-  margin: 0 auto;
+  font-size: 70px;
+  padding-top: 8px;
+  line-height: 0px;
 }
 
 .dot3{
-  width: 20px;
-  height: 20px;
-  background-color: #0000;
+  font-size: 90px;
+  line-height: 0px;
+}
+
+.peopleimg{
+  width: 80px;
+  height: 80px;
+  border: 2px solid #000;
+  background-color: #fff;
   border-radius: 50%;
+  margin: 0px 20px 0px 20px;
+}
+
+.table2{
+  margin:  0 auto;
+  width: 80%;
+  text-align: center;
+  border-collapse: collapse;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.people{
+  width: 100%;
+  height: 200px;
+  background-color: #D2DCB6;
+  text-align: center;
+  padding-top: 25px;
+}
+
+.name{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  color: #000;
+  margin: 10px 15px 0px 15px;
+  padding-top: 10px;
+}
+
+.footer1{
+  width: 100%;
+  height: 8px;
+  background-color: #F1F1F3;
+
+}
+
+.footer2{
+  width: 100%;
+  height: 8px;
+  background-color: #7FBF13;
+
+}
+
+.footer3{
+  width: 100%;
+  height: 40px;
+  background-color: #00341D;
+
+}
+
+.table3{
+  margin:  0 auto;
+  width: 80%;
+  text-align: center;
+  border-collapse: collapse;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.textset{
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  border-right: 2px solid #fff;
+  font-size: smaller;
+  padding-top: 12px;
+}
+.textset2{
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  font-size: smaller;
+  padding-top: 12px;
 }
