@@ -219,3 +219,193 @@ line-height: 0px;
   font-size: smaller;
   padding-top: 12px;
 }
+
+
+/* =========================================
+   RESPONSIVE CSS (Add at the bottom)
+   ========================================= */
+
+/* Laptops & Small Desktops (up to 1024px) */
+@media (max-width: 1024px) {
+  body {
+    padding: 0px 80px 20px 80px;
+  }
+
+  a {
+    margin: 20px;
+    font-size: large;
+  }
+
+  .table,
+  .table2,
+  .table3 {
+    width: 90%;
+  }
+
+  .para {
+    padding: 10px 30px 25px 30px;
+  }
+
+  .aboutPng,
+  .phone,
+  .send {
+    padding: 20px 0px 0px 30px;
+  }
+}
+
+/* Tablets (up to 768px) */
+@media (max-width: 768px) {
+  body {
+    padding: 0px 20px 20px 20px;
+  }
+
+  .navbar {
+    padding: 15px 10px;
+  }
+
+  a {
+    display: inline-block;
+    margin: 8px 15px;
+    font-size: medium;
+  }
+
+  .main {
+    height: auto;
+    padding: 30px 15px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 36px;
+    padding-top: 10px;
+  }
+
+  h3 {
+    font-size: 24px;
+  }
+
+  .tableDiv {
+    height: auto;
+    padding: 20px 0;
+  }
+
+  .table,
+  .table2,
+  .table3 {
+    width: 95%;
+  }
+
+ 
+  .table td {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .aboutPng,
+  .phone,
+  .send {
+    padding: 15px 0px 0px 20px;
+    vertical-align: middle;
+  }
+
+  .word {
+    position: static;
+    display: inline-block;
+    padding: 15px 0px 0px 12px;
+    vertical-align: middle;
+  }
+
+  .para {
+    padding: 10px 20px 20px 20px;
+    font-size: small;
+  }
+
+  .endBody {
+    height: auto;
+    padding: 20px 10px;
+    box-sizing: border-box;
+  }
+
+  .dot {
+    font-size: 35px;
+  }
+
+  .dot2 {
+    font-size: 50px;
+  }
+
+  .dot3 {
+    font-size: 65px;
+  }
+
+  .people {
+    height: auto;
+    padding: 25px 10px;
+    box-sizing: border-box;
+  }
+
+  .peopleimg {
+    width: 65px;
+    height: 65px;
+    margin: 0px 10px;
+  }
+
+  .footer3 {
+    height: auto;
+    padding: 10px 0;
+  }
+}
+
+/* Mobile Phones (up to 480px) */
+
+@media (max-width: 480px) {
+  body {
+    padding: 0px 10px 15px 10px;
+  }
+
+  a {
+    margin: 6px 10px;
+    font-size: 14px;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  /* Stack people cards vertically on phones */
+
+  .table2 td {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .peopleimg {
+    width: 75px;
+    height: 75px;
+    margin: 0 auto;
+  }
+
+  /* Stack footer items cleanly */
+  
+  .table3 td {
+    display: block;
+    width: 100%;
+  }
+
+  .textset {
+    border-right: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 8px 0;
+  }
+
+  .textset2 {
+    padding: 8px 0;
+  }
+}
